@@ -34,5 +34,5 @@ app.post("/search", async(req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
+    console.log(`[INFO] Express App running on http://localhost:${port}`);
 });
